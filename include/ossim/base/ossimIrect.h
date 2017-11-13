@@ -267,7 +267,6 @@ public:
                            (int)ceil(theUlCorner.x-shift.x+width()-1),
                            (int)ceil(theUlCorner.y-shift.y+height()-1),
                            theOrientMode);
-         return *this;
       }
 
    
