@@ -76,7 +76,7 @@ fi
 # CMake successful, now run make in the build directory (OSSIM_BUILD_DIR 
 # exported by cmake config script):
 pushd $OSSIM_BUILD_DIR >/dev/null
-make $MAKE_VERBOSE
+make VERBOSE=1
 if [ $? -ne 0 ]; then
   echo; echo "Error encountered during make. Check the console log and correct."
   popd>/dev/null
